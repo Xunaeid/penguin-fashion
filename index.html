@@ -18,8 +18,10 @@
     }
     </style>
 </head>
-<body class="font-roboto">
-    <header class=" bg-orange-50  lg:min-h-178 lg:min-w-360">
+<body class="font-roboto lg:w-[100vw] ">
+    <header class=" bg-orange-50 h-[716px] lg:h-[715px] w-[100vw] lg:min-h-178 ">
+
+    <!-- nav -->
         <!-- <nav class="bg-slate-300 hidden lg:min-w-292 myp-0 mx-auto flex items-center justify-between">
             <div class="">
                 <img class="" src="icons/logo.png" alt="">
@@ -33,21 +35,22 @@
                 </ul>
             </div>
         </nav> -->
-
-        <section class="flex gap-50 pt-20 relative mx-auto max-w-292 items-center">
-            <div class="max-w-120 pt-40">
-                <h1 class="leading-20 font-bebas uppercase text-7xl text-[#FABE4C]"><span>Be the penguins</span> <br> <span class="text-black">of winter</span></h1>
+<!-- banner -->
+        <section class="flex flex-col gap-50 lg:pt-20 relative w-[90vw] lg:w-[550px] lg:mx-40 mx-auto items-center">
+            <div class="max-w-120 pt-10 lg:pt-40">
+                <h1 class="lg:leading-20 font-bebas uppercase text-5xl lg:text-7xl text-[#FABE4C]"><span>Be the penguins</span> <br> <span class="text-black">of winter</span></h1>
                 <p class="pb-6">Like penguins facing the Antarctic winter, you too can endure and thrive. Our winter apparel offers the ultimate in warmth and durability, empowering you to conquer any challenge.</p>
                 <button class="h-14 py-3 px-8 rounded-md text-white flex gap-2 items-center hover:translate-y-1 transition-transform bg-gradient-to-r from-[#A4BC46] to-[#85A019]"><img class="max-h-7" src="icons/shopping-cart 1.png" alt=""> BUY NOW</button>
             </div>
             <div >
-                <!-- <img class="lg:max-h-511  top-44 absolute " src="images/model.png" alt=""> -->
-                <img class="absolute max-h-110 z-0 top-40 left-170" src="icons/bg2.png" alt="">
-                <img class="absolute min-h-150 z-1 top-28" src="images/model.png" alt="">
+                <img class="hidden lg:flex absolute max-h-110 z-0  top-40 left-170 " src="icons/bg2.png" alt="">
+                <img class="hidden lg:flex absolute min-h-150 z-1 top-28 left-170 " src="images/model.png" alt="">
+                <img class="absolute lg:hidden  z-0 size-60 left-[12px] top-[410px]" src="icons/bg2.png" alt="">
+                <img class="absolute lg:hidden  z-1 size-80 h-85  top-94 left-[5px]" src="images/model.png" alt="">
             </div>
         </section>
     </header>
-
+<!-- Woman Jacket -->
     <main class="bg-[#fdfdfd] lg:min-w-360 ">
         <!-- woman jacket -->
         <section class="mx-auto max-w-292">
@@ -83,7 +86,7 @@
 
         </section>
 
-        <!-- man jacket -->
+     <!-- man jacket -->
         <section class="mx-auto max-w-292">
             <h1 class="py-14 font-bebas text-5xl ">Man Jacket</h1>
             <div class="flex gap-8">
@@ -116,7 +119,7 @@
             </div>
 
         </section>
-
+<!-- Perfect Fit -->
         <section class="flex gap-15 items-center mx-auto max-w-292 mt-24 mb-70">
             <div class="flex flex-col gap-7">
                 <div class="bg-[#ffffff] rounded-xl max-w-122 max-h-34 drop-shadow-sm flex items-center gap-11 p-10">
