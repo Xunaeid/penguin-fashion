@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,12 +9,12 @@
  
     <meta property="og:site_name" content="Penguin Fashion">
     <meta property="og:title" content="Shop the latest trends in men's and women's fashion.  Find everything from everyday essentials to statement pieces.">
-    <meta property="og:description" content="Discover Your Perfect Style  ">
+    <meta property="og:description" content="Discover Your Perfect Style ">
 
     <meta property="og:image" itemprop="image" content="images/og-img.png">
 
-    <meta property="og:type" content="website" />
-    <meta property="og:image:type" content="image/png">
+    <meta property="og:type" content="website" >
+    <meta property="og:image:type" content="image/png" />
 
     <meta property="og:image:width" content="300">
     <meta property="og:image:height" content="300">
@@ -22,6 +22,8 @@
     <meta property="og:url" content="https://xunaeid.github.io/penguin-fashion/">
         
     <title>Penguin Fashion</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -37,24 +39,31 @@
     </style>
 </head>
 <body class="font-roboto lg:w-[100vw] ">
-    <header class=" bg-orange-50 h-[716px] lg:h-[715px] w-[100vw] lg:min-h-178 ">
-
-    <!-- nav -->
-        <!-- <nav class="bg-slate-300 hidden lg:min-w-292 myp-0 mx-auto flex items-center justify-between">
-            <div class="">
-                <img class="" src="icons/logo.png" alt="">
+    <header class=" bg-orange-50 h-[716px] lg:h-[715px]  w-[100vw] lg:min-h-178 ">
+        <div class="navbar  w-[90vw] mx-auto max-w-292 pt-5">
+            <div class="flex-1">
+              <a class="">
+                <img src="icons/logo.png" class="w-30 lg:w-60" alt="">
+              </a>
             </div>
-            <div>
-                <ul class="flex gap-8">
-                    <li>Home</li>
-                    <li>Product</li>
-                    <li>About us</li>
-                    <li>Contact us</li>
-                </ul>
+            <div class="flex-none">
+              <button class="btn btn-square btn-ghost ">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  class="inline-block h-5 w-5 stroke-current">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path>
+                </svg>
+              </button>
             </div>
-        </nav> -->
+          </div>
 <!-- banner -->
-        <section class="flex flex-col gap-50 lg:pt-20 relative w-[90vw] lg:w-[550px] lg:mx-40 mx-auto items-center">
+        <section class="flex flex-col gap-50 lg:pt-20c relative w-[90vw] lg:w-[550px] lg:mx-40 mx-auto items-center">
             <div class="max-w-120 pt-10 lg:pt-40">
                 <h1 class="lg:leading-20 font-bebas uppercase text-5xl lg:text-7xl text-[#FABE4C]"><span>Be the penguins</span> <br> <span class="text-black">of winter</span></h1>
                 <p class="pb-6">Like penguins facing the Antarctic winter, you too can endure and thrive. Our winter apparel offers the ultimate in warmth and durability, empowering you to conquer any challenge.</p>
@@ -63,8 +72,8 @@
             <div >
                 <img class="hidden lg:flex absolute max-h-110 z-0  top-40 left-170 " src="icons/bg2.png" alt="">
                 <img class="hidden lg:flex absolute min-h-150 z-1 top-28 left-170 " src="images/model.png" alt="">
-                <img class="absolute lg:hidden  z-0 size-60 left-[12px] top-[410px]" src="icons/bg2.png" alt="">
-                <img class="absolute lg:hidden  z-1 size-80 h-85  top-94 left-[5px]" src="images/model.png" alt="">
+                <img class="absolute lg:hidden  z-0 size-60 left-[12px] top-[360px]" src="icons/bg2.png" alt="">
+                <img class="absolute lg:hidden  z-1 size-80 h-85  top-80 left-[5px]" src="images/model.png" alt="">
             </div>
         </section>
     </header>
